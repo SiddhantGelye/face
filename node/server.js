@@ -5,7 +5,7 @@ app.get('/',(req,res)=>{
     const user = {
         name:'siddhu',
         lastname:'gelye',
-        age:23
+        age:25
     }
     res.send(user);
 })
